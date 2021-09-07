@@ -157,8 +157,10 @@ html {
 #slider {
     position: relative;
     margin-top: 46px;
-    padding-top: 50%;
-    background: url('/assets/img/places/slider1.jpg') top center / cover no-repeat;
+}
+
+#slider img {
+    width: 100%;
 }
 
 #slider .text-content {
