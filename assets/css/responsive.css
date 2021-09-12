@@ -1,0 +1,136 @@
+/* PC */
+@media (min-width: 64.0625em) {
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 64em) {
+.place-buy-btn {
+    padding: 15px 16px;
+
+}
+
+.contact-form .form-control {
+    padding: 15px !important;
+    font-size: 16px;
+}
+
+.socials-list {
+    font-size: 48px !important;
+}
+
+.socials-list a {
+    margin: 0 8px !important;
+}
+
+.copyright a {
+    padding: 12px 0 !important;
+    display: inline-block;
+}
+
+.contact-info {
+    line-height: 2;
+}
+
+.contact-submit-btn {
+    font-size: 16px;
+}
+
+}
+
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px !important;
+        font-size: 16px;
+    }
+
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    .socials-list {
+        font-size: 28px !important;
+    }
+
+    .socials-list a {
+        margin: 0 8px !important;
+    }
+    
+    .copyright a {
+        padding: 12px 0 !important;
+        display: inline-block;
+    }
+}
+  

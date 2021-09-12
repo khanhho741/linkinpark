@@ -137,6 +137,14 @@ html {
     font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
@@ -147,6 +155,16 @@ html {
     background-color: #f44336;
 }
 
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
+
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     font-size: 15px;
@@ -178,6 +196,7 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -186,9 +205,12 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
@@ -267,7 +289,7 @@ html {
 /* Places */
 
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img {
@@ -304,6 +326,10 @@ html {
     padding: 11px 16px;
     display: inline-block;
     margin-top: 15px;
+    text-align: center;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .place-buy-btn:hover {
@@ -420,6 +446,15 @@ html {
     display: inline-block;
 }
 
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-form {
     font-size: 15px;
 }
@@ -436,6 +471,7 @@ html {
     border: 1px solid #000;
     padding: 10px 16px;
     float: right;
+    border: none;
 }
 
 .contact-form .form-submit-btn:hover {
@@ -449,6 +485,7 @@ html {
 
 .map-section img {
     width: 100%; 
+    filter: grayscale(50%);
 }
 
 
